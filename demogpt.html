@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DemoGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About AI</a>
+    <a href="demogpt.html">DemoGPT</a>
+</nav>
+
+<div class="container">
+
+    <h1>DemoGPT</h1>
+
+    <div id="chat"></div>
+
+    <input
+        type="text"
+        id="input"
+        placeholder="Type a message..."
+    >
+
+    <button onclick="send()">Send</button>
+
+    <div id="buttons" style="display:none;">
+        <button onclick="newChat()">
+            New Chat
+        </button>
+
+        <button onclick="tryNewVersion()">
+            Try Our New Version
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
